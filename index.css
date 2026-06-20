@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  height: 100vh;
+}
+.app {
+  width: 390px;
+
+  margin: 0 auto;
+}
+body {
+  background-color: #eef1f6;
+  font-family: Inter;
+  margin: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #0e1b3d;
+  background-image: url("./assets/worldmap.png");
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+.header h1 {
+  color: #11b23c;
+  margin: 0;
+}
+.header span {
+  color: #fff;
+}
+
+.header img {
+  width: 100px;
+}
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border: 3px solid #0e1b3d;
+  border-radius: 0 0 10px 10px;
+}
+.form h3 {
+  color: #0356b9;
+  text-align: center;
+}
+#input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #eef0f4;
+  border: none;
+  border-radius: 5px;
+  min-height: 100px;
+  resize: none;
+}
+#translate {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #0e1b3d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#translate:hover {
+  background-color: #0356b9;
+}

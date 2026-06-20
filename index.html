@@ -7,32 +7,37 @@
 
 <body>
     <!-- Your HTML here -->
+    <div class="app">
+        <div class="container">
+            <div class="header">
+                <img src="assets/parrot.png" alt="PollyGlot Logo" class="logo">
+                <div class="header-text">
+                    <h1>PollyGlot</h1>
+                    <span id="tagline">Perfect translation every time</span>
 
-    <h1>PollyGlot</h1>
-    <h5>Perfect translation every time</h5>
-
-    <h3> Text to translate</h3>
-    <textarea id="input" placeholder="Enter text to translate..."></textarea>
-    <h3> Select language </h3>
-    <input type="radio" name="language" value="french" id="french">
-    <label for="french">French</label>
-    <input type="radio" name="language" value="spanish" id="spanish">
-    <label for="spanish">Spanish</label>
-    <input type="radio" name="language" value="japanese" id="japanese">
-    <label for="japanese">Japanese</label>
+                </div>
 
 
+            </div>
+            <div class="form">
+                <h3> Text to translate </h3>
+                <textarea id="input" placeholder="Enter text to translate..."></textarea>
+                <h3> Select language </h3>
+                <input type="radio" name="language" value="french" id="french">
+                <label for="french">French</label>
+                <input type="radio" name="language" value="spanish" id="spanish">
+                <label for="spanish">Spanish</label>
+                <input type="radio" name="language" value="japanese" id="japanese">
+                <label for="japanese">Japanese</label>
 
+                <button id="translate">Translate</button>
+            </div>
 
-
-    <button id="translate">Translate</button>
-
-
-
-
-
-
-    <script src="index.js" type="module"></script>
+        </div>
+    </div>
+    <script src="index.js" type="module">
+    </script>
 </body>
+
 
 </html>
