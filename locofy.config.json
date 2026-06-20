@@ -1,0 +1,28 @@
+{
+  "components": [],
+  "projectId": "3FPplyGThBSVbvMY4Zb84RcKhXo",
+  "projectName": "pollyglot-app",
+  "framework": "react",
+  "teamId": "3FPiEP6q7DrQGscHQRr6mP53NsN",
+  "settings": {
+    "units": {
+      "unit": "px",
+      "topRightBottomLeft": true,
+      "widthHeight": true,
+      "margin": true,
+      "padding": true,
+      "gap": true,
+      "fontSize": true,
+      "lineHeight": true,
+      "baseFontSize": 16
+    },
+    "designTokens": true,
+    "generateFigmaTokens": true,
+    "tailwindGenerateTokens": true,
+    "styling": "CSS Modules",
+    "fileNamingConvention": "Pascal Case",
+    "typescript": false,
+    "vite": true,
+    "reactVersion": "19"
+  }
+}
