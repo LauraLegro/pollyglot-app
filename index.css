@@ -62,12 +62,16 @@ body {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
-  background-color: #0e1b3d;
+  background-color: #0356b9;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 #translate:hover {
-  background-color: #0356b9;
+  background-color: #024a8c;
+}
+
+.flag {
+  width: 30px;
 }

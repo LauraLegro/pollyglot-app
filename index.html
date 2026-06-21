@@ -23,13 +23,22 @@
                 <h3> Text to translate </h3>
                 <textarea id="input" placeholder="Enter text to translate..."></textarea>
                 <h3> Select language </h3>
-                <input type="radio" name="language" value="french" id="french">
-                <label for="french">French</label>
-                <input type="radio" name="language" value="spanish" id="spanish">
-                <label for="spanish">Spanish</label>
-                <input type="radio" name="language" value="japanese" id="japanese">
-                <label for="japanese">Japanese</label>
 
+                <div class="language">
+                    <input type="radio" name="language" value="french" id="french">
+                    <label for="french">French</label>
+                    <img src="assets/fr-flag.png" class="flag" />
+                </div>
+                <div class="language">
+                    <input type="radio" name="language" value="spanish" id="spanish">
+                    <label for="spanish">Spanish</label>
+                    <img src="assets/sp-flag.png" class="flag" />
+                </div>
+                <div class="language">
+                    <input type="radio" name="language" value="japanese" id="japanese">
+                    <label for="japanese">Japanese</label>
+                    <img src="assets/jpn-flag.png" class="flag" />
+                </div>
                 <button id="translate">Translate</button>
             </div>
 
