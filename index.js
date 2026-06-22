@@ -21,9 +21,6 @@ translateBtn.addEventListener("click", async () => {
     return;
   }
   const language = selected.value;
-  const output = document.getElementById("output");
-
-  output.textContent = "Translating...";
 
   const response = await openai.chat.completions.create({
     model: "gpt-4o-mini",
@@ -42,5 +39,17 @@ translateBtn.addEventListener("click", async () => {
     max_tokens: 2000,
   });
 
-  output.textContent = response.choices[0].message.content;
+  document.getElementById("original-text").textContent = text;
+  document.getElementById("translated-text").textContent =
+    response.choices[0].message.content;
+  document.getElementById("input-view").classList.add("hidden");
+  document.getElementById("results-view").classList.remove("hidden");
+});
+
+const startOverBtn = document.getElementById("start-over");
+
+startOverBtn.addEventListener("click", () => {
+  document.getElementById("input").value = "";
+  document.getElementById("results-view").classList.add("hidden");
+  document.getElementById("input-view").classList.remove("hidden");
 });
