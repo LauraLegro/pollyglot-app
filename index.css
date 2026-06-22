@@ -9,13 +9,13 @@
   height: 100vh;
 }
 .app {
-  width: 290px;
+  width: 390px;
 
   margin: 0 auto;
 }
 body {
   background-color: #eef1f6;
-  font-family: Inter;
+  font-family: "Poppins", sans-serif;
   margin: 0;
 }
 .header {
@@ -30,6 +30,8 @@ body {
 .header h1 {
   color: #11b23c;
   margin: 0;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-family: 43px;
 }
 .header span {
   color: #fff;
