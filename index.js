@@ -22,6 +22,9 @@ translateBtn.addEventListener("click", async () => {
   // ask OUR server function to do the translating
   const res = await fetch("/api/translate", {
     method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
     body: JSON.stringify({ text, language }),
   });
   const data = await res.json();
